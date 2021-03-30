@@ -18,7 +18,6 @@ function App() {
 
   const isBeerTime = (hour >= 16 && hour >= 0 && correctDay) || (sameDay(currentDate, kingsDay))
 
-
   return (
     <div className="App">
       <header className="App-header">
